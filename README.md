@@ -1,6 +1,7 @@
 # Bigram Language Model
 
 This repository contains a simple implementation of a Bigram Language Model using PyTorch. The model is designed to learn and generate text based on a given dataset, leveraging a transformer architecture with self-attention mechanisms.
+A bigram language model is a type of statistical language model that predicts the probability of a word in a sequence based on the previous word. It considers pairs of consecutive words (bigrams) and estimates the likelihood of encountering a specific word given the preceding word in a text or sentence.
 
 ## Overview
 
