@@ -8,8 +8,11 @@ The Bigram Language Model is a neural network-based text generation model. It us
 
 ## Features
 
-- **Transformer Architecture**: Utilizes multi-head self-attention for capturing dependencies in the text.
-- **Custom Dataset Handling**: Reads and processes text data from a provided file.
-- **Text Generation**: Generates new text sequences based on the trained model.
+## Features
+
+- **Text Generation**: Capable of generating coherent text sequences based on an initial context.
+- **Transformer Architecture**: Utilizes Transformer blocks, including multi-head self-attention and feed-forward layers, to learn complex patterns in text data.
+- **Training Data**: Trained on pathology data from `Robbins-Pathologic2005.txt`, allowing the model to generate domain-specific text.
+- **Customizable Hyperparameters**: Allows adjustments to various hyperparameters such as batch size, context length, learning rate, etc.
 
 
